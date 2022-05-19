@@ -6,7 +6,6 @@ import math
 from flask import Flask, render_template, render_template_string,\
                   Markup, current_app, \
                   url_for, redirect
-import markdown2
 
 cfd = os.path.dirname(os.path.realpath(__file__))
 app = Flask(__name__)
@@ -29,7 +28,7 @@ def me():
 
 @app.route('/about/')
 def about():
-    about_html = markdown2.markdown_path('content/about.md')
+    about_html = 'content/about.md'
     return render_template('about.html',
                            current_page='About',
                            about_html=about_html)
@@ -41,7 +40,7 @@ def contact():
 
 @app.route('/my-work/')
 def mywork():
-    work_html = markdown2.markdown_path('content/my-work.md')
+    work_html = 'content/my-work.md'
     return render_template('my-work.html',
                            current_page='My work',
                            work_html=work_html)
