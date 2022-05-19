@@ -1,6 +1,5 @@
-# Source code for jbrookes.com
+# Source code for gbose.com
 
-Personal page built with Python (Flask + Flask-FlatPages) and custom HTML + CSS. View live at http://jbrookes.com/
+Gaurab Bose's personal website. Developed using Python Flask and hosted on Google App Engine.
 
-## Screenshot
-![Screenshot of http://jbrookes.com/](media/screenshot.png)
+Template credit to jbrooks.com

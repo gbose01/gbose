@@ -262,7 +262,7 @@ img.profile-card-pic {
     padding: 10px 25px;
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
-    color: white;
+    color: black;
 }
 
 .profile-card-name,
@@ -367,7 +367,7 @@ a.project-card {
 }
 
 .me-banner {
-    background-color: blue;
+    background-color: white;
 }
 
 img.project-banner,

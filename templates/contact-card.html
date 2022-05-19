@@ -4,9 +4,10 @@
   </h1>
   {% else %}
   <h2 class="section-title">
-    <a href="{{ url_for('contact')}}" class="arrow">Contact</a>
+    <a href="{{ url_for('contact')}}", class="arrow">Contact Me</a>
   </h2>
   {% endif %}
+    <img src="{{url_for('static', filename='gaurab_pic.png')}}", class="profile-card-pic" />
 
     <div class="inner-card">
     <ul class="contact">
