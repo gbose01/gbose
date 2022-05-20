@@ -257,6 +257,12 @@ img.profile-card-pic {
     max-width: 160px;
 }
 
+img.logo {
+    float: right;
+    max-width: 50px;
+    margin-left: 20px;
+}
+
 #profile-card-infobox {
     overflow: hidden;
     padding: 10px 25px;
