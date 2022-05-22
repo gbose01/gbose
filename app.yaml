@@ -1,2 +1,4 @@
 runtime: python38
-secure: always
+handlers:
+- url: /.*
+  secure: always
