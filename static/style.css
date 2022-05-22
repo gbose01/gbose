@@ -257,9 +257,11 @@ img.profile-card-pic {
     max-width: 160px;
 }
 
-img.logo {
+
+#logo {
     float: right;
-    max-width: 50px;
+    width: 7.5%;
+    height: 7.5%;
     margin-left: 20px;
 }
 
