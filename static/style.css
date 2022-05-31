@@ -255,6 +255,7 @@ a.seemore {
 img.profile-card-pic {
     float: left;
     max-width: 160px;
+    margin-right: 30px;
 }
 
 

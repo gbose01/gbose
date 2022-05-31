@@ -1,15 +1,15 @@
 <div class="card cf">
     {% if current_page == "My work"%}
-    <h1 class="title">My work
+    <h1 class="title">Projects
     </h1>
     {% else %}
     <h2 class="section-title">
-        <a class="arrow" href="{{ url_for('mywork')}}">My work</a>
+        <a class="arrow" href="{{ url_for('mywork')}}">Projects</a>
     </h2>
     {% endif %}
     
     <div class="inner-card">
-        Side projects onlyc. For an overview of my formal education and work experiences, head over to the About page.
+         For an overview of my formal education and work experiences, see <a href="{{ url_for('about')}}">About</a>.
         <h2>Building</h2>
         <h4>Cardinal DAO (2022)</h4>
         <h4>WiiQare (2021)</h4>

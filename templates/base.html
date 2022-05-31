@@ -7,7 +7,7 @@
 
     <meta name="description" content="{% block description %}{% endblock %} - Gaurab Bose">
 
-    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='gaurab_pic.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='gaurab_circ.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,700,700i|Roboto+Mono:400,400i,700" rel="stylesheet">
@@ -33,7 +33,7 @@
                 <a href="{{url_for('home')}}" {% if current_page=='Home' %}class="sweep current" {% endif %} class="sweep">Home</a>
             </li>
             <li class="navbutton">
-                <a href="{{url_for('mywork')}}" {% if current_page=='My work' %}class="sweep current" {% endif %} class="sweep">My Work</a>
+                <a href="{{url_for('mywork')}}" {% if current_page=='My work' %}class="sweep current" {% endif %} class="sweep">Projects</a>
             </li>
             <li class="navbutton">
                 <a href="{{url_for('about')}}" {% if current_page=='About' %}class="sweep current" {% endif %} class="sweep">About</a>
@@ -57,8 +57,8 @@
         <div id="footer">
             {% block footer %}
             <ul class="footer-ul">
-                <li> <i class="fa fa-copyright" aria-hidden="true"></i> Jack Brookes {{ year }}</li>
-                <li><a onclick="topFunction()" style="cursor:pointer">Back to top <i class="fa fa-fw fa-long-arrow-up" aria-hidden="true"></i></a></li>
+                <li> This website uses python flask and is hosted on my personal Raspberry Pi server</li>
+                <li> <i class="fa fa-copyright" aria-hidden="true"></i> Template Credit to Jack Brookes</li>
             </ul>
             {% endblock %}
         </div>

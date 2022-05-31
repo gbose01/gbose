@@ -51,7 +51,7 @@ def st():
 
 @app.route('/favicon.ico')
 def favicon():
-    return url_for('static', filename='gaurab_pic.png')
+    return url_for('static', filename='gaurab_circ.png')
 
 @app.errorhandler(404)
 def page_not_found(err):
