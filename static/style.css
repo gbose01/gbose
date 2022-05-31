@@ -659,6 +659,16 @@ ul.footer-ul li a:hover {
     }
 }
 
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    padding: 2.5%;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    color: #bb3333;
+}
+
 @media only screen and (max-width: 650px) {
     .mobile-padded {
         padding: 10px;
